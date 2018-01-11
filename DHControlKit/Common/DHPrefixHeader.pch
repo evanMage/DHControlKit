@@ -1,0 +1,19 @@
+//
+//  DHPrefixHeader.pch
+//  DHControlKit
+//
+//  Created by 代新辉 on 2018/1/11.
+//  Copyright © 2018年 代新辉. All rights reserved.
+//
+
+#ifndef DHPrefixHeader_pch
+#define DHPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DXHDebug.h"
+#import "DHAdditions.h"
+#import "DHConfig.h"
+
+#endif /* DHPrefixHeader_pch */

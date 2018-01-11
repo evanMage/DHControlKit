@@ -13,6 +13,44 @@
 		5BC33F2F20075DF700356B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33F2E20075DF700356B4D /* Assets.xcassets */; };
 		5BC33F3220075DF700356B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33F3020075DF700356B4D /* LaunchScreen.storyboard */; };
 		5BC33F3520075DF700356B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F3420075DF700356B4D /* main.m */; };
+		5BC33F5D2007610800356B4D /* DHSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F412007610800356B4D /* DHSlideView.m */; };
+		5BC33F5E2007610800356B4D /* DHColorChangeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F422007610800356B4D /* DHColorChangeUtils.m */; };
+		5BC33F5F2007610800356B4D /* DHScrollTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F442007610800356B4D /* DHScrollTabbarView.m */; };
+		5BC33F602007610800356B4D /* DHCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F452007610800356B4D /* DHCustomSlideView.m */; };
+		5BC33F612007610800356B4D /* DHCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F472007610800356B4D /* DHCache.m */; };
+		5BC33F622007610800356B4D /* DHViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F4D2007610800356B4D /* DHViewAnimator.m */; };
+		5BC33F632007610800356B4D /* DHSwipeViewProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F4E2007610800356B4D /* DHSwipeViewProtocol.m */; };
+		5BC33F642007610800356B4D /* DHSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F502007610800356B4D /* DHSwipeView.m */; };
+		5BC33F652007610800356B4D /* DHSwipeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F512007610800356B4D /* DHSwipeUtils.m */; };
+		5BC33F662007610800356B4D /* DHViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F542007610800356B4D /* DHViewManager.m */; };
+		5BC33F672007610800356B4D /* DHParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F572007610800356B4D /* DHParallaxHeader.m */; };
+		5BC33F682007610800356B4D /* DHScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F5A2007610800356B4D /* DHScrollViewController.m */; };
+		5BC33F692007610800356B4D /* DHScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F5B2007610800356B4D /* DHScrollView.m */; };
+		5BC33F8D200767D500356B4D /* NSRegularExpression+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F6E200767D400356B4D /* NSRegularExpression+Additions.m */; };
+		5BC33F8E200767D500356B4D /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F6F200767D400356B4D /* UIColor+Additions.m */; };
+		5BC33F8F200767D500356B4D /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F75200767D400356B4D /* UIView+Additions.m */; };
+		5BC33F90200767D500356B4D /* UITextField+Additons.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F76200767D400356B4D /* UITextField+Additons.m */; };
+		5BC33F91200767D500356B4D /* NSNumber+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F78200767D400356B4D /* NSNumber+Additions.m */; };
+		5BC33F92200767D500356B4D /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F7B200767D400356B4D /* UIImage+Additions.m */; };
+		5BC33F93200767D500356B4D /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F7C200767D400356B4D /* NSArray+Additions.m */; };
+		5BC33F94200767D500356B4D /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F7E200767D400356B4D /* NSString+Additions.m */; };
+		5BC33F95200767D500356B4D /* UITableView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F7F200767D400356B4D /* UITableView+Additions.m */; };
+		5BC33F96200767D500356B4D /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F80200767D400356B4D /* NSDate+Additions.m */; };
+		5BC33F97200767D500356B4D /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F81200767D400356B4D /* NSData+Additions.m */; };
+		5BC33F98200767D500356B4D /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F82200767D400356B4D /* NSObject+Additions.m */; };
+		5BC33F99200767D500356B4D /* UIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F83200767D400356B4D /* UIScrollView+Additions.m */; };
+		5BC33F9A200767D500356B4D /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F84200767D500356B4D /* NSDictionary+Additions.m */; };
+		5BC33F9B200767D500356B4D /* NSNotificationCenter+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F86200767D500356B4D /* NSNotificationCenter+Additions.m */; };
+		5BC33FA2200768BC00356B4D /* DHCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33FA0200768BC00356B4D /* DHCardViewController.m */; };
+		5BC33FA3200768BC00356B4D /* DHCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33FA1200768BC00356B4D /* DHCardViewController.xib */; };
+		5BC33FA6200768D500356B4D /* DHCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33FA5200768D500356B4D /* DHCardView.m */; };
+		5BC33FA920076A4900356B4D /* DHSegmentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33FA820076A4900356B4D /* DHSegmentationViewController.m */; };
+		5BC33FAD20076A8300356B4D /* DHSegmentHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33FAB20076A8300356B4D /* DHSegmentHeaderViewController.m */; };
+		5BC33FAE20076A8300356B4D /* DHSegmentHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33FAC20076A8300356B4D /* DHSegmentHeaderViewController.xib */; };
+		5BC33FB220076AAB00356B4D /* DHSlideViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33FB020076AAB00356B4D /* DHSlideViewViewController.m */; };
+		5BC33FB320076AAB00356B4D /* DHSlideViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33FB120076AAB00356B4D /* DHSlideViewViewController.xib */; };
+		5BC33FBB20076D5E00356B4D /* DHContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33FB920076D5E00356B4D /* DHContentViewController.m */; };
+		5BC33FBC20076D5E00356B4D /* DHContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33FBA20076D5E00356B4D /* DHContentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +64,84 @@
 		5BC33F3120075DF700356B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC33F3320075DF700356B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BC33F3420075DF700356B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BC33F3E2007610800356B4D /* DHScrollTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHScrollTabbarView.h; sourceTree = "<group>"; };
+		5BC33F3F2007610800356B4D /* DHCustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCustomSlideView.h; sourceTree = "<group>"; };
+		5BC33F402007610800356B4D /* DHSlideTabbarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSlideTabbarProtocol.h; sourceTree = "<group>"; };
+		5BC33F412007610800356B4D /* DHSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSlideView.m; sourceTree = "<group>"; };
+		5BC33F422007610800356B4D /* DHColorChangeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHColorChangeUtils.m; sourceTree = "<group>"; };
+		5BC33F432007610800356B4D /* DHCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCache.h; sourceTree = "<group>"; };
+		5BC33F442007610800356B4D /* DHScrollTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHScrollTabbarView.m; sourceTree = "<group>"; };
+		5BC33F452007610800356B4D /* DHCustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCustomSlideView.m; sourceTree = "<group>"; };
+		5BC33F462007610800356B4D /* DHCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCacheProtocol.h; sourceTree = "<group>"; };
+		5BC33F472007610800356B4D /* DHCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCache.m; sourceTree = "<group>"; };
+		5BC33F482007610800356B4D /* DHColorChangeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHColorChangeUtils.h; sourceTree = "<group>"; };
+		5BC33F492007610800356B4D /* DHSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSlideView.h; sourceTree = "<group>"; };
+		5BC33F4B2007610800356B4D /* DHSwipeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSwipeUtils.h; sourceTree = "<group>"; };
+		5BC33F4C2007610800356B4D /* DHSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSwipeView.h; sourceTree = "<group>"; };
+		5BC33F4D2007610800356B4D /* DHViewAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHViewAnimator.m; sourceTree = "<group>"; };
+		5BC33F4E2007610800356B4D /* DHSwipeViewProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSwipeViewProtocol.m; sourceTree = "<group>"; };
+		5BC33F4F2007610800356B4D /* DHViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHViewManager.h; sourceTree = "<group>"; };
+		5BC33F502007610800356B4D /* DHSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSwipeView.m; sourceTree = "<group>"; };
+		5BC33F512007610800356B4D /* DHSwipeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSwipeUtils.m; sourceTree = "<group>"; };
+		5BC33F522007610800356B4D /* DHViewAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHViewAnimator.h; sourceTree = "<group>"; };
+		5BC33F532007610800356B4D /* DHSwipeViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSwipeViewProtocol.h; sourceTree = "<group>"; };
+		5BC33F542007610800356B4D /* DHViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHViewManager.m; sourceTree = "<group>"; };
+		5BC33F562007610800356B4D /* DHScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHScrollViewController.h; sourceTree = "<group>"; };
+		5BC33F572007610800356B4D /* DHParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHParallaxHeader.m; sourceTree = "<group>"; };
+		5BC33F582007610800356B4D /* DHScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHScrollView.h; sourceTree = "<group>"; };
+		5BC33F592007610800356B4D /* DHParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHParallaxHeader.h; sourceTree = "<group>"; };
+		5BC33F5A2007610800356B4D /* DHScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHScrollViewController.m; sourceTree = "<group>"; };
+		5BC33F5B2007610800356B4D /* DHScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHScrollView.m; sourceTree = "<group>"; };
+		5BC33F6B200763CC00356B4D /* DHPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHPrefixHeader.pch; sourceTree = "<group>"; };
+		5BC33F6C2007673200356B4D /* DXHDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXHDebug.h; sourceTree = "<group>"; };
+		5BC33F6E200767D400356B4D /* NSRegularExpression+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+Additions.m"; sourceTree = "<group>"; };
+		5BC33F6F200767D400356B4D /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		5BC33F70200767D400356B4D /* UITextField+Additons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Additons.h"; sourceTree = "<group>"; };
+		5BC33F71200767D400356B4D /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		5BC33F72200767D400356B4D /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		5BC33F73200767D400356B4D /* NSRegularExpression+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+Additions.h"; sourceTree = "<group>"; };
+		5BC33F74200767D400356B4D /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Additions.h"; sourceTree = "<group>"; };
+		5BC33F75200767D400356B4D /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		5BC33F76200767D400356B4D /* UITextField+Additons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Additons.m"; sourceTree = "<group>"; };
+		5BC33F77200767D400356B4D /* DHAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHAdditions.h; sourceTree = "<group>"; };
+		5BC33F78200767D400356B4D /* NSNumber+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Additions.m"; sourceTree = "<group>"; };
+		5BC33F79200767D400356B4D /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		5BC33F7A200767D400356B4D /* UITableView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Additions.h"; sourceTree = "<group>"; };
+		5BC33F7B200767D400356B4D /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		5BC33F7C200767D400356B4D /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		5BC33F7D200767D400356B4D /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		5BC33F7E200767D400356B4D /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		5BC33F7F200767D400356B4D /* UITableView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Additions.m"; sourceTree = "<group>"; };
+		5BC33F80200767D400356B4D /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		5BC33F81200767D400356B4D /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Additions.m"; sourceTree = "<group>"; };
+		5BC33F82200767D400356B4D /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		5BC33F83200767D400356B4D /* UIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Additions.m"; sourceTree = "<group>"; };
+		5BC33F84200767D500356B4D /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		5BC33F85200767D500356B4D /* NSNotificationCenter+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+Additions.h"; sourceTree = "<group>"; };
+		5BC33F86200767D500356B4D /* NSNotificationCenter+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+Additions.m"; sourceTree = "<group>"; };
+		5BC33F87200767D500356B4D /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		5BC33F88200767D500356B4D /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		5BC33F89200767D500356B4D /* NSNumber+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Additions.h"; sourceTree = "<group>"; };
+		5BC33F8A200767D500356B4D /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		5BC33F8B200767D500356B4D /* UIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Additions.h"; sourceTree = "<group>"; };
+		5BC33F8C200767D500356B4D /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		5BC33F9F200768BC00356B4D /* DHCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHCardViewController.h; sourceTree = "<group>"; };
+		5BC33FA0200768BC00356B4D /* DHCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHCardViewController.m; sourceTree = "<group>"; };
+		5BC33FA1200768BC00356B4D /* DHCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHCardViewController.xib; sourceTree = "<group>"; };
+		5BC33FA4200768D500356B4D /* DHCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHCardView.h; sourceTree = "<group>"; };
+		5BC33FA5200768D500356B4D /* DHCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHCardView.m; sourceTree = "<group>"; };
+		5BC33FA720076A4900356B4D /* DHSegmentationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHSegmentationViewController.h; sourceTree = "<group>"; };
+		5BC33FA820076A4900356B4D /* DHSegmentationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSegmentationViewController.m; sourceTree = "<group>"; };
+		5BC33FAA20076A8300356B4D /* DHSegmentHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHSegmentHeaderViewController.h; sourceTree = "<group>"; };
+		5BC33FAB20076A8300356B4D /* DHSegmentHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSegmentHeaderViewController.m; sourceTree = "<group>"; };
+		5BC33FAC20076A8300356B4D /* DHSegmentHeaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHSegmentHeaderViewController.xib; sourceTree = "<group>"; };
+		5BC33FAF20076AAB00356B4D /* DHSlideViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHSlideViewViewController.h; sourceTree = "<group>"; };
+		5BC33FB020076AAB00356B4D /* DHSlideViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSlideViewViewController.m; sourceTree = "<group>"; };
+		5BC33FB120076AAB00356B4D /* DHSlideViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHSlideViewViewController.xib; sourceTree = "<group>"; };
+		5BC33FB720076C1100356B4D /* DHConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHConfig.h; sourceTree = "<group>"; };
+		5BC33FB820076D5E00356B4D /* DHContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHContentViewController.h; sourceTree = "<group>"; };
+		5BC33FB920076D5E00356B4D /* DHContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHContentViewController.m; sourceTree = "<group>"; };
+		5BC33FBA20076D5E00356B4D /* DHContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHContentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +174,10 @@
 		5BC33F2420075DF700356B4D /* DHControlKit */ = {
 			isa = PBXGroup;
 			children = (
+				5BC33F6D200767B000356B4D /* Additions */,
+				5BC33F3C2007610800356B4D /* Class */,
+				5BC33F5C2007610800356B4D /* Common */,
+				5BC33F6A200762D100356B4D /* Main */,
 				5BC33F2520075DF700356B4D /* AppDelegate.h */,
 				5BC33F2620075DF700356B4D /* AppDelegate.m */,
 				5BC33F2820075DF700356B4D /* ViewController.h */,
@@ -69,6 +189,160 @@
 				5BC33F3420075DF700356B4D /* main.m */,
 			);
 			path = DHControlKit;
+			sourceTree = "<group>";
+		};
+		5BC33F3C2007610800356B4D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F3D2007610800356B4D /* SlideView */,
+				5BC33F4A2007610800356B4D /* DHSwipeView */,
+				5BC33F552007610800356B4D /* DHParallaxHeader */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5BC33F3D2007610800356B4D /* SlideView */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F402007610800356B4D /* DHSlideTabbarProtocol.h */,
+				5BC33F462007610800356B4D /* DHCacheProtocol.h */,
+				5BC33F482007610800356B4D /* DHColorChangeUtils.h */,
+				5BC33F422007610800356B4D /* DHColorChangeUtils.m */,
+				5BC33F432007610800356B4D /* DHCache.h */,
+				5BC33F472007610800356B4D /* DHCache.m */,
+				5BC33F3E2007610800356B4D /* DHScrollTabbarView.h */,
+				5BC33F442007610800356B4D /* DHScrollTabbarView.m */,
+				5BC33F492007610800356B4D /* DHSlideView.h */,
+				5BC33F412007610800356B4D /* DHSlideView.m */,
+				5BC33F3F2007610800356B4D /* DHCustomSlideView.h */,
+				5BC33F452007610800356B4D /* DHCustomSlideView.m */,
+			);
+			path = SlideView;
+			sourceTree = "<group>";
+		};
+		5BC33F4A2007610800356B4D /* DHSwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F4B2007610800356B4D /* DHSwipeUtils.h */,
+				5BC33F512007610800356B4D /* DHSwipeUtils.m */,
+				5BC33F4C2007610800356B4D /* DHSwipeView.h */,
+				5BC33F502007610800356B4D /* DHSwipeView.m */,
+				5BC33F4F2007610800356B4D /* DHViewManager.h */,
+				5BC33F542007610800356B4D /* DHViewManager.m */,
+				5BC33F522007610800356B4D /* DHViewAnimator.h */,
+				5BC33F4D2007610800356B4D /* DHViewAnimator.m */,
+				5BC33F4E2007610800356B4D /* DHSwipeViewProtocol.m */,
+				5BC33F532007610800356B4D /* DHSwipeViewProtocol.h */,
+			);
+			path = DHSwipeView;
+			sourceTree = "<group>";
+		};
+		5BC33F552007610800356B4D /* DHParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F592007610800356B4D /* DHParallaxHeader.h */,
+				5BC33F572007610800356B4D /* DHParallaxHeader.m */,
+				5BC33F582007610800356B4D /* DHScrollView.h */,
+				5BC33F5B2007610800356B4D /* DHScrollView.m */,
+				5BC33F562007610800356B4D /* DHScrollViewController.h */,
+				5BC33F5A2007610800356B4D /* DHScrollViewController.m */,
+			);
+			path = DHParallaxHeader;
+			sourceTree = "<group>";
+		};
+		5BC33F5C2007610800356B4D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F6B200763CC00356B4D /* DHPrefixHeader.pch */,
+				5BC33F6C2007673200356B4D /* DXHDebug.h */,
+				5BC33FB720076C1100356B4D /* DHConfig.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5BC33F6A200762D100356B4D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F9D2007682F00356B4D /* Card */,
+				5BC33F9E2007682F00356B4D /* Scroll */,
+				5BC33F9C2007682F00356B4D /* Slide */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5BC33F6D200767B000356B4D /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F77200767D400356B4D /* DHAdditions.h */,
+				5BC33F87200767D500356B4D /* NSArray+Additions.h */,
+				5BC33F7C200767D400356B4D /* NSArray+Additions.m */,
+				5BC33F74200767D400356B4D /* NSData+Additions.h */,
+				5BC33F81200767D400356B4D /* NSData+Additions.m */,
+				5BC33F72200767D400356B4D /* NSDate+Additions.h */,
+				5BC33F80200767D400356B4D /* NSDate+Additions.m */,
+				5BC33F79200767D400356B4D /* NSDictionary+Additions.h */,
+				5BC33F84200767D500356B4D /* NSDictionary+Additions.m */,
+				5BC33F85200767D500356B4D /* NSNotificationCenter+Additions.h */,
+				5BC33F86200767D500356B4D /* NSNotificationCenter+Additions.m */,
+				5BC33F89200767D500356B4D /* NSNumber+Additions.h */,
+				5BC33F78200767D400356B4D /* NSNumber+Additions.m */,
+				5BC33F71200767D400356B4D /* NSObject+Additions.h */,
+				5BC33F82200767D400356B4D /* NSObject+Additions.m */,
+				5BC33F73200767D400356B4D /* NSRegularExpression+Additions.h */,
+				5BC33F6E200767D400356B4D /* NSRegularExpression+Additions.m */,
+				5BC33F8C200767D500356B4D /* NSString+Additions.h */,
+				5BC33F7E200767D400356B4D /* NSString+Additions.m */,
+				5BC33F88200767D500356B4D /* UIColor+Additions.h */,
+				5BC33F6F200767D400356B4D /* UIColor+Additions.m */,
+				5BC33F7D200767D400356B4D /* UIImage+Additions.h */,
+				5BC33F7B200767D400356B4D /* UIImage+Additions.m */,
+				5BC33F8B200767D500356B4D /* UIScrollView+Additions.h */,
+				5BC33F83200767D400356B4D /* UIScrollView+Additions.m */,
+				5BC33F7A200767D400356B4D /* UITableView+Additions.h */,
+				5BC33F7F200767D400356B4D /* UITableView+Additions.m */,
+				5BC33F70200767D400356B4D /* UITextField+Additons.h */,
+				5BC33F76200767D400356B4D /* UITextField+Additons.m */,
+				5BC33F8A200767D500356B4D /* UIView+Additions.h */,
+				5BC33F75200767D400356B4D /* UIView+Additions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		5BC33F9C2007682F00356B4D /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33FA720076A4900356B4D /* DHSegmentationViewController.h */,
+				5BC33FA820076A4900356B4D /* DHSegmentationViewController.m */,
+				5BC33FAA20076A8300356B4D /* DHSegmentHeaderViewController.h */,
+				5BC33FAB20076A8300356B4D /* DHSegmentHeaderViewController.m */,
+				5BC33FAC20076A8300356B4D /* DHSegmentHeaderViewController.xib */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		5BC33F9D2007682F00356B4D /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33F9F200768BC00356B4D /* DHCardViewController.h */,
+				5BC33FA0200768BC00356B4D /* DHCardViewController.m */,
+				5BC33FA1200768BC00356B4D /* DHCardViewController.xib */,
+				5BC33FA4200768D500356B4D /* DHCardView.h */,
+				5BC33FA5200768D500356B4D /* DHCardView.m */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		5BC33F9E2007682F00356B4D /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				5BC33FAF20076AAB00356B4D /* DHSlideViewViewController.h */,
+				5BC33FB020076AAB00356B4D /* DHSlideViewViewController.m */,
+				5BC33FB120076AAB00356B4D /* DHSlideViewViewController.xib */,
+				5BC33FB820076D5E00356B4D /* DHContentViewController.h */,
+				5BC33FB920076D5E00356B4D /* DHContentViewController.m */,
+				5BC33FBA20076D5E00356B4D /* DHContentViewController.xib */,
+			);
+			path = Scroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,12 +371,13 @@
 		5BC33F1A20075DF700356B4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DH;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "代新辉";
 				TargetAttributes = {
 					5BC33F2120075DF700356B4D = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,6 +406,10 @@
 			files = (
 				5BC33F3220075DF700356B4D /* LaunchScreen.storyboard in Resources */,
 				5BC33F2F20075DF700356B4D /* Assets.xcassets in Resources */,
+				5BC33FA3200768BC00356B4D /* DHCardViewController.xib in Resources */,
+				5BC33FBC20076D5E00356B4D /* DHContentViewController.xib in Resources */,
+				5BC33FB320076AAB00356B4D /* DHSlideViewViewController.xib in Resources */,
+				5BC33FAE20076A8300356B4D /* DHSegmentHeaderViewController.xib in Resources */,
 				5BC33F2D20075DF700356B4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +421,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC33F602007610800356B4D /* DHCustomSlideView.m in Sources */,
+				5BC33F632007610800356B4D /* DHSwipeViewProtocol.m in Sources */,
+				5BC33F5D2007610800356B4D /* DHSlideView.m in Sources */,
+				5BC33F9B200767D500356B4D /* NSNotificationCenter+Additions.m in Sources */,
+				5BC33F5F2007610800356B4D /* DHScrollTabbarView.m in Sources */,
+				5BC33F682007610800356B4D /* DHScrollViewController.m in Sources */,
 				5BC33F2A20075DF700356B4D /* ViewController.m in Sources */,
+				5BC33F8D200767D500356B4D /* NSRegularExpression+Additions.m in Sources */,
+				5BC33FA920076A4900356B4D /* DHSegmentationViewController.m in Sources */,
+				5BC33F92200767D500356B4D /* UIImage+Additions.m in Sources */,
+				5BC33F8F200767D500356B4D /* UIView+Additions.m in Sources */,
+				5BC33FA6200768D500356B4D /* DHCardView.m in Sources */,
+				5BC33F612007610800356B4D /* DHCache.m in Sources */,
+				5BC33FB220076AAB00356B4D /* DHSlideViewViewController.m in Sources */,
+				5BC33F99200767D500356B4D /* UIScrollView+Additions.m in Sources */,
+				5BC33F97200767D500356B4D /* NSData+Additions.m in Sources */,
+				5BC33F95200767D500356B4D /* UITableView+Additions.m in Sources */,
+				5BC33F90200767D500356B4D /* UITextField+Additons.m in Sources */,
+				5BC33F98200767D500356B4D /* NSObject+Additions.m in Sources */,
+				5BC33F652007610800356B4D /* DHSwipeUtils.m in Sources */,
 				5BC33F3520075DF700356B4D /* main.m in Sources */,
+				5BC33F5E2007610800356B4D /* DHColorChangeUtils.m in Sources */,
+				5BC33F9A200767D500356B4D /* NSDictionary+Additions.m in Sources */,
+				5BC33F8E200767D500356B4D /* UIColor+Additions.m in Sources */,
+				5BC33F672007610800356B4D /* DHParallaxHeader.m in Sources */,
+				5BC33FA2200768BC00356B4D /* DHCardViewController.m in Sources */,
 				5BC33F2720075DF700356B4D /* AppDelegate.m in Sources */,
+				5BC33F94200767D500356B4D /* NSString+Additions.m in Sources */,
+				5BC33F622007610800356B4D /* DHViewAnimator.m in Sources */,
+				5BC33FAD20076A8300356B4D /* DHSegmentHeaderViewController.m in Sources */,
+				5BC33F91200767D500356B4D /* NSNumber+Additions.m in Sources */,
+				5BC33F642007610800356B4D /* DHSwipeView.m in Sources */,
+				5BC33FBB20076D5E00356B4D /* DHContentViewController.m in Sources */,
+				5BC33F662007610800356B4D /* DHViewManager.m in Sources */,
+				5BC33F692007610800356B4D /* DHScrollView.m in Sources */,
+				5BC33F96200767D500356B4D /* NSDate+Additions.m in Sources */,
+				5BC33F93200767D500356B4D /* NSArray+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +591,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DFD88F82SU;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6EKHTFQG7A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHControlKit/Common/DHPrefixHeader.pch";
 				INFOPLIST_FILE = DHControlKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.DHControlKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "855c286d-7537-486a-8088-392d824792db";
+				PROVISIONING_PROFILE_SPECIFIER = SogouMT;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +608,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DFD88F82SU;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6EKHTFQG7A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHControlKit/Common/DHPrefixHeader.pch";
 				INFOPLIST_FILE = DHControlKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.DHControlKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "855c286d-7537-486a-8088-392d824792db";
+				PROVISIONING_PROFILE_SPECIFIER = SogouMT;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
