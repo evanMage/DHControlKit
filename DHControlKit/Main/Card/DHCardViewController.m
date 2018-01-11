@@ -60,7 +60,7 @@
     self.swipeView.allowedDirectionState = DHSwipeViewDirectionStateHorizontal;
     self.swipeView.translatesAutoresizingMaskIntoConstraints = NO;
     self.swipeView.numberOfActiveViews = 3;
-    self.swipeView.animatorState = DHViewAnimatorDynamicState;
+//    self.swipeView.animatorState = DHViewAnimatorDynamicState;
     self.swipeView.delegate = self;
     self.swipeView.dataSource = self;
     self.swipeView.animatorProtocol = self;
@@ -118,7 +118,7 @@
     }
     DHCardView *cardView = [[DHCardView alloc] initWithFrame:swipeView.frame];
     cardView.backgroundColor = self.colorsArray[self.colorIndex];
-    //    cardView.backgroundColor = [UIColor whiteColor];
+//        cardView.backgroundColor = [UIColor whiteColor];
     self.colorIndex ++;
     return cardView;
 }

@@ -67,13 +67,13 @@
 {
     NSMutableArray *itemArray = [NSMutableArray array];
     DHScrollTabbarItem *item = nil;
-    item = [DHScrollTabbarItem itemWithTitle:@"娱乐" attributedString:nil width:100];
+    item = [DHScrollTabbarItem itemWithTitle:@"娱乐" attributedString:nil width:80];
     [itemArray addObject:item];
-    item = [DHScrollTabbarItem itemWithTitle:@"阅读" attributedString:nil width:100];
+    item = [DHScrollTabbarItem itemWithTitle:@"阅读" attributedString:nil width:80];
     [itemArray addObject:item];
-    item = [DHScrollTabbarItem itemWithTitle:@"小说" attributedString:nil width:100];
+    item = [DHScrollTabbarItem itemWithTitle:@"小说" attributedString:nil width:80];
     [itemArray addObject:item];
-    item = [DHScrollTabbarItem itemWithTitle:@"国际报道" attributedString:nil width:100];
+    item = [DHScrollTabbarItem itemWithTitle:@"国际报道" attributedString:nil width:80];
     [itemArray addObject:item];
     return itemArray;
 }

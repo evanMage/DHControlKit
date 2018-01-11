@@ -35,7 +35,7 @@
 {
     UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     cell.textLabel.text = @(indexPath.row).stringValue;
-    cell.backgroundColor = [UIColor redColor];
+//    cell.backgroundColor = [UIColor redColor];
     return cell;
 }
 
