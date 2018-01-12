@@ -119,6 +119,7 @@
     DHCardView *cardView = [[DHCardView alloc] initWithFrame:swipeView.frame];
     cardView.backgroundColor = self.colorsArray[self.colorIndex];
 //        cardView.backgroundColor = [UIColor whiteColor];
+    cardView.tag = self.colorIndex;
     self.colorIndex ++;
     return cardView;
 }

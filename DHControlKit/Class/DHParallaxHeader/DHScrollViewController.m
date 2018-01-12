@@ -56,17 +56,11 @@ static void *const KDHScrollViewControllerKVOContext = (void *) & KDHScrollViewC
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    NSLog(@"-----------%@",NSStringFromCGRect(self.scrollView.frame));
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    NSLog(@"-----------%@",NSStringFromCGRect(self.scrollView.frame));
-    CGRect frame = self.scrollView.frame;
-    frame.size.height -= 34;
-    self.scrollView.frame = frame;
-    NSLog(@"-----------%@",NSStringFromCGRect(self.scrollView.frame));
 }
 
 - (void)didReceiveMemoryWarning {

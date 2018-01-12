@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DHSegmentHeaderViewController">
             <connections>
+                <outlet property="textfield" destination="OzA-b8-x2V" id="Lw9-Bz-XVY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,9 +20,22 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OzA-b8-x2V">
+                    <rect key="frame" x="16" y="100" width="343" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
             <color key="backgroundColor" red="0.12549019610000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="OzA-b8-x2V" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="9qr-xn-DF4"/>
+                <constraint firstItem="OzA-b8-x2V" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="80" id="Zvc-gO-jK0"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="OzA-b8-x2V" secondAttribute="trailing" constant="16" id="hIi-Yk-pGX"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="-208" y="-43"/>
+            <point key="canvasLocation" x="-208.5" y="-43.5"/>
         </view>
     </objects>
 </document>

@@ -10,6 +10,8 @@
 
 @interface DHSegmentHeaderViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *textfield;
+
 @end
 
 @implementation DHSegmentHeaderViewController
@@ -17,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSString *str = @"一寸土，一年木，一花一木一贪图，一寸土，一年木，一花一木一贪图";
+    NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:str];
+    [attrStr addAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15.0]} range:[str rangeofAll]];
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyle.lineBreakMode = NSLineBreakByTruncatingHead;
+    [attrStr addAttributes:@{NSParagraphStyleAttributeName:paragraphStyle} range:[str rangeofAll]];
+    self.textfield.attributedText = attrStr;
+    self.textfield.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {

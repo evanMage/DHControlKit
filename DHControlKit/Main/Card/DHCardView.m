@@ -50,6 +50,14 @@
     //    self.layer.shadowRadius = 4.0;
     //    self.layer.shouldRasterize = YES;
     //    self.layer.rasterizationScale = [UIScreen mainScreen].scale;
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    [self addGestureRecognizer:tap];
+}
+
+- (void)tap:(UIGestureRecognizer *)recognizer
+{
+    DXHDINFO(@"--------%zd",recognizer.view.tag);
 }
 
 @end
