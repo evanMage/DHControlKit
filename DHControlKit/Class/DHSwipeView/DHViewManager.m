@@ -171,8 +171,8 @@ typedef NS_ENUM(NSInteger, DHViewMoveSlopeState) {
                         self.view.center = CGPointMake( self.view.center.x, -1 * ((self.view.frame.size.height) * 2));
                      }
                 } completion:^(BOOL finished) {
-                    CGVector directionVector = CGVectorFromCGPoint(CGPointMultiply(CGPointNormalized(translation), MAX(CGPointMagnitude(velocity), _swipeView.minVelocityInPointPerSecond)));
-                    [_swipeView swipeTopViewFromPoint:location inDirection:directionVector];
+                    [self.view removeFromSuperview];
+                    [self.swipeView loadViewsIfNeeded];
                 }];
             }
         }else{

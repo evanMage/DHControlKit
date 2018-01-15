@@ -116,7 +116,7 @@
     if (self.colorIndex >= self.colorsArray.count) {
         self.colorIndex = 0;
     }
-    DHCardView *cardView = [[DHCardView alloc] initWithFrame:swipeView.frame];
+    DHCardView *cardView = [[DHCardView alloc] initWithFrame:swipeView.bounds];
     cardView.backgroundColor = self.colorsArray[self.colorIndex];
 //        cardView.backgroundColor = [UIColor whiteColor];
     cardView.tag = self.colorIndex;
