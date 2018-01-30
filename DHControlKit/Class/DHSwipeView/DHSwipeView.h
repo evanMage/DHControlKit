@@ -141,6 +141,8 @@ typedef NS_ENUM(NSInteger, DHViewAnimatorState) {
 
 - (void)swipeTopViewFromPoint:(CGPoint)point inDirection:(CGVector)directionVector;
 
+- (void)removeManagerForView:(UIView *)view;
+
 @end
 
 /**

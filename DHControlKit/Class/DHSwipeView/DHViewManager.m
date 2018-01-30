@@ -171,6 +171,7 @@ typedef NS_ENUM(NSInteger, DHViewMoveSlopeState) {
                         self.view.center = CGPointMake( self.view.center.x, -1 * ((self.view.frame.size.height) * 2));
                      }
                 } completion:^(BOOL finished) {
+                    [self.swipeView removeManagerForView:self.view];
                     [self.view removeFromSuperview];
                     [self.swipeView loadViewsIfNeeded];
                 }];
