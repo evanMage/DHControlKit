@@ -53,6 +53,14 @@
     return [UIColor colorWithRed:red green:green blue:blue alpha:opacity];
 }
 
++ (UIColor *)colorRandom
+{
+    float red = (float)arc4random_uniform(256)/255.0;
+    float green = (float)arc4random_uniform(256)/255.0;
+    float blue = (float)arc4random_uniform(256)/225.0;
+    return [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+}
+
 + (CGFloat)redValueWithHex:(long)hexColor
 {
     return ((float)((hexColor & 0xFF0000) >> 16))/255.0;

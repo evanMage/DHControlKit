@@ -51,6 +51,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)colorWithHexString:(NSString *)hexColorString alpha:(float)alpha;
 
 /**
+ 随机生成颜色
+ 
+ @return UIColor
+ */
++ (UIColor *)colorRandom;
+
+/**
  *根据输入的16进制的颜色数值，输出对应的RGB色值
  */
 + (CGFloat)redValueWithHex:(long)hexColor;
