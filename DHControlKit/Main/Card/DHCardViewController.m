@@ -40,7 +40,7 @@
         _swipeView = [[DHSwipeView alloc] init];
         [self.view addSubview:_swipeView];
         [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-20-[_swipeView]-20-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_swipeView)]];
-        [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-250-[_swipeView]-50-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_swipeView)]];
+        [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-200-[_swipeView]-100-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_swipeView)]];
     }
     return _swipeView;
 }
@@ -60,7 +60,7 @@
     self.swipeView.allowedDirectionState = DHSwipeViewDirectionStateHorizontal;
     self.swipeView.translatesAutoresizingMaskIntoConstraints = NO;
     self.swipeView.numberOfActiveViews = 3;
-//    self.swipeView.animatorState = DHViewAnimatorDynamicState;
+    self.swipeView.animatorState = DHViewAnimatorDynamicState;
     self.swipeView.delegate = self;
     self.swipeView.dataSource = self;
     self.swipeView.animatorProtocol = self;
@@ -70,10 +70,10 @@
 {
     self.colorIndex = 0;
     [self.colorsArray removeAllObjects];
-    [self.colorsArray addObject:[UIColor orangeColor]];
-    [self.colorsArray addObject:[UIColor yellowColor]];
-    [self.colorsArray addObject:[UIColor blueColor]];
-    [self.colorsArray addObject:[UIColor purpleColor]];
+    [self.colorsArray addObject:[UIColor colorRandom]];
+    [self.colorsArray addObject:[UIColor colorRandom]];
+    [self.colorsArray addObject:[UIColor colorRandom]];
+    [self.colorsArray addObject:[UIColor colorRandom]];
 }
 
 

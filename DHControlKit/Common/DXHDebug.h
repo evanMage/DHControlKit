@@ -49,8 +49,26 @@
 
 #if DXHLOGLEVEL_INFO <= DXHMAXLOGLEVEL
 #define DXHDINFO(xx, ...)  DXHDPRINT(xx, ##__VA_ARGS__)
+
+/**
+ border layout (object 控件类型；radius 圆角；width 宽度)
+ */
+#define DXHBorderLayout(object,radius,random,width) {\
+object.layer.cornerRadius = radius;\
+object.layer.borderColor = random?[UIColor colorRandom].CGColor:[UIColor redColor].CGColor;\
+object.layer.borderWidth = width?width:0.5;\
+object.layer.masksToBounds = YES;\
+};
+//计时器
+#define DXHTICK   NSDate *startTime = [NSDate date];
+#define DXHTOCK   DXHDINFO(@"******Time used: %fs *******",-[startTime timeIntervalSinceNow]);
 #else
 #define DXHDINFO(xx, ...)  ((void)0)
+
+#define DXHBorderLayout(object,radius,random,width) ((void)0);
+
+#define DXHTICK     ((void)0);
+#define DXHTOCK     ((void)0);
 #endif
 
 #ifdef DXHDEBUG

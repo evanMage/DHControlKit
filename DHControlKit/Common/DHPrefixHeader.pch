@@ -16,5 +16,6 @@
 #import "DHAdditions.h"
 #import "DHConfig.h"
 #import "DXHObjectSingeton.h"
+#import <Masonry.h>
 
 #endif /* DHPrefixHeader_pch */

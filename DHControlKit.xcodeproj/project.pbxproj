@@ -194,6 +194,20 @@
 			path = video;
 			sourceTree = "<group>";
 		};
+		5B8F3EC120465B0C004CD6D2 /* ClickWord */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClickWord;
+			sourceTree = "<group>";
+		};
+		5B8F3EC220465B31004CD6D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5BC33F1920075DF700356B4D = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +232,7 @@
 				5BC33F6D200767B000356B4D /* Additions */,
 				5BC33F3C2007610800356B4D /* Class */,
 				5BC33F5C2007610800356B4D /* Common */,
+				5B8F3EC220465B31004CD6D2 /* View */,
 				5BC33F6A200762D100356B4D /* Main */,
 				5BC33F2520075DF700356B4D /* AppDelegate.h */,
 				5BC33F2620075DF700356B4D /* AppDelegate.m */,
@@ -306,6 +321,7 @@
 		5BC33F6A200762D100356B4D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5B8F3EC120465B0C004CD6D2 /* ClickWord */,
 				5BC33F9D2007682F00356B4D /* Card */,
 				5BC33F9E2007682F00356B4D /* Scroll */,
 				5BC33F9C2007682F00356B4D /* Slide */,
