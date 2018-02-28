@@ -15,5 +15,6 @@
 #import "DXHDebug.h"
 #import "DHAdditions.h"
 #import "DHConfig.h"
+#import "DXHObjectSingeton.h"
 
 #endif /* DHPrefixHeader_pch */

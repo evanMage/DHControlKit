@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B8F3EB5204405F9004CD6D2 /* DHVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EB4204405F9004CD6D2 /* DHVideoPlayer.m */; };
+		5B8F3EB920440A13004CD6D2 /* DHAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */; };
 		5BC33F2720075DF700356B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2620075DF700356B4D /* AppDelegate.m */; };
 		5BC33F2A20075DF700356B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2920075DF700356B4D /* ViewController.m */; };
 		5BC33F2D20075DF700356B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33F2B20075DF700356B4D /* Main.storyboard */; };
@@ -51,9 +53,16 @@
 		5BC33FB320076AAB00356B4D /* DHSlideViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33FB120076AAB00356B4D /* DHSlideViewViewController.xib */; };
 		5BC33FBB20076D5E00356B4D /* DHContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33FB920076D5E00356B4D /* DHContentViewController.m */; };
 		5BC33FBC20076D5E00356B4D /* DHContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33FBA20076D5E00356B4D /* DHContentViewController.xib */; };
+		A87223F3691225DAE612C11E /* libPods-DHControlKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C80C56F689E2BB55AC5932 /* libPods-DHControlKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		154B02DDFB43457F32ED9BF8 /* Pods-DHControlKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHControlKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHControlKit/Pods-DHControlKit.debug.xcconfig"; sourceTree = "<group>"; };
+		5B8F3EB3204405F9004CD6D2 /* DHVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHVideoPlayer.h; sourceTree = "<group>"; };
+		5B8F3EB4204405F9004CD6D2 /* DHVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHVideoPlayer.m; sourceTree = "<group>"; };
+		5B8F3EB62044064A004CD6D2 /* DXHObjectSingeton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXHObjectSingeton.h; sourceTree = "<group>"; };
+		5B8F3EB720440A13004CD6D2 /* DHAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAudioPlayer.h; sourceTree = "<group>"; };
+		5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAudioPlayer.m; sourceTree = "<group>"; };
 		5BC33F2220075DF700356B4D /* DHControlKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHControlKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC33F2520075DF700356B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BC33F2620075DF700356B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +151,8 @@
 		5BC33FB820076D5E00356B4D /* DHContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHContentViewController.h; sourceTree = "<group>"; };
 		5BC33FB920076D5E00356B4D /* DHContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHContentViewController.m; sourceTree = "<group>"; };
 		5BC33FBA20076D5E00356B4D /* DHContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHContentViewController.xib; sourceTree = "<group>"; };
+		64C80C56F689E2BB55AC5932 /* libPods-DHControlKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHControlKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04F5CD8F8741F4C6278E418 /* Pods-DHControlKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHControlKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHControlKit/Pods-DHControlKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,17 +160,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87223F3691225DAE612C11E /* libPods-DHControlKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B8F3E9D2043EF41004CD6D2 /* DHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5B8F3EB2204405E4004CD6D2 /* video */,
+				5B8F3EB1204405DA004CD6D2 /* audio */,
+			);
+			path = DHPlayer;
+			sourceTree = "<group>";
+		};
+		5B8F3EB1204405DA004CD6D2 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				5B8F3EB720440A13004CD6D2 /* DHAudioPlayer.h */,
+				5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		5B8F3EB2204405E4004CD6D2 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				5B8F3EB3204405F9004CD6D2 /* DHVideoPlayer.h */,
+				5B8F3EB4204405F9004CD6D2 /* DHVideoPlayer.m */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
 		5BC33F1920075DF700356B4D = {
 			isa = PBXGroup;
 			children = (
 				5BC33F2420075DF700356B4D /* DHControlKit */,
 				5BC33F2320075DF700356B4D /* Products */,
+				C2EF6A5F126A923013BD72D3 /* Pods */,
+				A2BACA9C6A95D560E17825A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +235,7 @@
 		5BC33F3C2007610800356B4D /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5B8F3E9D2043EF41004CD6D2 /* DHPlayer */,
 				5BC33F3D2007610800356B4D /* SlideView */,
 				5BC33F4A2007610800356B4D /* DHSwipeView */,
 				5BC33F552007610800356B4D /* DHParallaxHeader */,
@@ -256,6 +298,7 @@
 				5BC33F6B200763CC00356B4D /* DHPrefixHeader.pch */,
 				5BC33F6C2007673200356B4D /* DXHDebug.h */,
 				5BC33FB720076C1100356B4D /* DHConfig.h */,
+				5B8F3EB62044064A004CD6D2 /* DXHObjectSingeton.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -345,6 +388,23 @@
 			path = Scroll;
 			sourceTree = "<group>";
 		};
+		A2BACA9C6A95D560E17825A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C80C56F689E2BB55AC5932 /* libPods-DHControlKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2EF6A5F126A923013BD72D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154B02DDFB43457F32ED9BF8 /* Pods-DHControlKit.debug.xcconfig */,
+				E04F5CD8F8741F4C6278E418 /* Pods-DHControlKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC33F3820075DF700356B4D /* Build configuration list for PBXNativeTarget "DHControlKit" */;
 			buildPhases = (
+				CFA87589533BC1AC34ED9A73 /* [CP] Check Pods Manifest.lock */,
 				5BC33F1E20075DF700356B4D /* Sources */,
 				5BC33F1F20075DF700356B4D /* Frameworks */,
 				5BC33F2020075DF700356B4D /* Resources */,
+				3C920116C99E61AEA52294BC /* [CP] Embed Pods Frameworks */,
+				3062439ACD99FB198DEA0929 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -416,6 +479,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3062439ACD99FB198DEA0929 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHControlKit/Pods-DHControlKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C920116C99E61AEA52294BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHControlKit/Pods-DHControlKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA87589533BC1AC34ED9A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DHControlKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BC33F1E20075DF700356B4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -437,6 +551,7 @@
 				5BC33FB220076AAB00356B4D /* DHSlideViewViewController.m in Sources */,
 				5BC33F99200767D500356B4D /* UIScrollView+Additions.m in Sources */,
 				5BC33F97200767D500356B4D /* NSData+Additions.m in Sources */,
+				5B8F3EB5204405F9004CD6D2 /* DHVideoPlayer.m in Sources */,
 				5BC33F95200767D500356B4D /* UITableView+Additions.m in Sources */,
 				5BC33F90200767D500356B4D /* UITextField+Additons.m in Sources */,
 				5BC33F98200767D500356B4D /* NSObject+Additions.m in Sources */,
@@ -444,6 +559,7 @@
 				5BC33F3520075DF700356B4D /* main.m in Sources */,
 				5BC33F5E2007610800356B4D /* DHColorChangeUtils.m in Sources */,
 				5BC33F9A200767D500356B4D /* NSDictionary+Additions.m in Sources */,
+				5B8F3EB920440A13004CD6D2 /* DHAudioPlayer.m in Sources */,
 				5BC33F8E200767D500356B4D /* UIColor+Additions.m in Sources */,
 				5BC33F672007610800356B4D /* DHParallaxHeader.m in Sources */,
 				5BC33FA2200768BC00356B4D /* DHCardViewController.m in Sources */,
@@ -589,6 +705,7 @@
 		};
 		5BC33F3920075DF700356B4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154B02DDFB43457F32ED9BF8 /* Pods-DHControlKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -606,6 +723,7 @@
 		};
 		5BC33F3A20075DF700356B4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04F5CD8F8741F4C6278E418 /* Pods-DHControlKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
