@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B8F3EB5204405F9004CD6D2 /* DHVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EB4204405F9004CD6D2 /* DHVideoPlayer.m */; };
-		5B8F3EB920440A13004CD6D2 /* DHAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */; };
 		5B8F3EC620468434004CD6D2 /* DHClickWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */; };
 		5B8F3EC720468434004CD6D2 /* DHClickWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */; };
+		5BA3537720902A46004E1FAB /* DHAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3537620902A46004E1FAB /* DHAttributedLabel.m */; };
 		5BC33F2720075DF700356B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2620075DF700356B4D /* AppDelegate.m */; };
 		5BC33F2A20075DF700356B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2920075DF700356B4D /* ViewController.m */; };
 		5BC33F2D20075DF700356B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33F2B20075DF700356B4D /* Main.storyboard */; };
@@ -60,14 +59,12 @@
 
 /* Begin PBXFileReference section */
 		154B02DDFB43457F32ED9BF8 /* Pods-DHControlKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHControlKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHControlKit/Pods-DHControlKit.debug.xcconfig"; sourceTree = "<group>"; };
-		5B8F3EB3204405F9004CD6D2 /* DHVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHVideoPlayer.h; sourceTree = "<group>"; };
-		5B8F3EB4204405F9004CD6D2 /* DHVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHVideoPlayer.m; sourceTree = "<group>"; };
 		5B8F3EB62044064A004CD6D2 /* DXHObjectSingeton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXHObjectSingeton.h; sourceTree = "<group>"; };
-		5B8F3EB720440A13004CD6D2 /* DHAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAudioPlayer.h; sourceTree = "<group>"; };
-		5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAudioPlayer.m; sourceTree = "<group>"; };
 		5B8F3EC320468434004CD6D2 /* DHClickWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHClickWordViewController.h; sourceTree = "<group>"; };
 		5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHClickWordViewController.m; sourceTree = "<group>"; };
 		5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHClickWordViewController.xib; sourceTree = "<group>"; };
+		5BA3537520902A46004E1FAB /* DHAttributedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAttributedLabel.h; sourceTree = "<group>"; };
+		5BA3537620902A46004E1FAB /* DHAttributedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAttributedLabel.m; sourceTree = "<group>"; };
 		5BC33F2220075DF700356B4D /* DHControlKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHControlKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC33F2520075DF700356B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BC33F2620075DF700356B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -172,33 +169,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B8F3E9D2043EF41004CD6D2 /* DHPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				5B8F3EB2204405E4004CD6D2 /* video */,
-				5B8F3EB1204405DA004CD6D2 /* audio */,
-			);
-			path = DHPlayer;
-			sourceTree = "<group>";
-		};
-		5B8F3EB1204405DA004CD6D2 /* audio */ = {
-			isa = PBXGroup;
-			children = (
-				5B8F3EB720440A13004CD6D2 /* DHAudioPlayer.h */,
-				5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */,
-			);
-			path = audio;
-			sourceTree = "<group>";
-		};
-		5B8F3EB2204405E4004CD6D2 /* video */ = {
-			isa = PBXGroup;
-			children = (
-				5B8F3EB3204405F9004CD6D2 /* DHVideoPlayer.h */,
-				5B8F3EB4204405F9004CD6D2 /* DHVideoPlayer.m */,
-			);
-			path = video;
-			sourceTree = "<group>";
-		};
 		5B8F3EC120465B0C004CD6D2 /* ClickWord */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +184,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5BA3537420902970004E1FAB /* DHAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3537520902A46004E1FAB /* DHAttributedLabel.h */,
+				5BA3537620902A46004E1FAB /* DHAttributedLabel.m */,
+			);
+			path = DHAttributedLabel;
 			sourceTree = "<group>";
 		};
 		5BC33F1920075DF700356B4D = {
@@ -258,7 +237,7 @@
 		5BC33F3C2007610800356B4D /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				5B8F3E9D2043EF41004CD6D2 /* DHPlayer */,
+				5BA3537420902970004E1FAB /* DHAttributedLabel */,
 				5BC33F3D2007610800356B4D /* SlideView */,
 				5BC33F4A2007610800356B4D /* DHSwipeView */,
 				5BC33F552007610800356B4D /* DHParallaxHeader */,
@@ -577,15 +556,14 @@
 				5BC33FB220076AAB00356B4D /* DHSlideViewViewController.m in Sources */,
 				5BC33F99200767D500356B4D /* UIScrollView+Additions.m in Sources */,
 				5BC33F97200767D500356B4D /* NSData+Additions.m in Sources */,
-				5B8F3EB5204405F9004CD6D2 /* DHVideoPlayer.m in Sources */,
 				5BC33F95200767D500356B4D /* UITableView+Additions.m in Sources */,
 				5BC33F90200767D500356B4D /* UITextField+Additons.m in Sources */,
 				5BC33F98200767D500356B4D /* NSObject+Additions.m in Sources */,
 				5BC33F652007610800356B4D /* DHSwipeUtils.m in Sources */,
 				5BC33F3520075DF700356B4D /* main.m in Sources */,
 				5BC33F5E2007610800356B4D /* DHColorChangeUtils.m in Sources */,
+				5BA3537720902A46004E1FAB /* DHAttributedLabel.m in Sources */,
 				5BC33F9A200767D500356B4D /* NSDictionary+Additions.m in Sources */,
-				5B8F3EB920440A13004CD6D2 /* DHAudioPlayer.m in Sources */,
 				5BC33F8E200767D500356B4D /* UIColor+Additions.m in Sources */,
 				5BC33F672007610800356B4D /* DHParallaxHeader.m in Sources */,
 				5BC33FA2200768BC00356B4D /* DHCardViewController.m in Sources */,
@@ -738,6 +716,7 @@
 				DEVELOPMENT_TEAM = 6EKHTFQG7A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DHControlKit/Common/DHPrefixHeader.pch";
 				INFOPLIST_FILE = DHControlKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.DHControlKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -756,6 +735,7 @@
 				DEVELOPMENT_TEAM = 6EKHTFQG7A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DHControlKit/Common/DHPrefixHeader.pch";
 				INFOPLIST_FILE = DHControlKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.DHControlKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
