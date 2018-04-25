@@ -10,6 +10,7 @@
 #import "DHCardViewController.h"
 #import "DHSlideViewViewController.h"
 #import "DHSegmentationViewController.h"
+#import "DHClickWordViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -37,7 +38,7 @@
 {
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.dataArray = @[@"Slide tab",@"ScrollView Parallax Header",@"Card Swipe"];
+    self.dataArray = @[@"Slide tab",@"ScrollView Parallax Header",@"Card Swipe",@"click word"];
     [self.tableView reloadData];
 }
 
@@ -74,6 +75,11 @@
             DHCardViewController *cardViewController = [[DHCardViewController alloc] init];
             [self.navigationController pushViewController:cardViewController animated:YES];
 
+        }
+        case 3:{
+            DHClickWordViewController *clickWordViewController = [[DHClickWordViewController alloc] init];
+            [self.navigationController pushViewController:clickWordViewController animated:YES];
+            
         }
             break;
             

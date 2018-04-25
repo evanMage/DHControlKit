@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5B8F3EB5204405F9004CD6D2 /* DHVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EB4204405F9004CD6D2 /* DHVideoPlayer.m */; };
 		5B8F3EB920440A13004CD6D2 /* DHAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */; };
+		5B8F3EC620468434004CD6D2 /* DHClickWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */; };
+		5B8F3EC720468434004CD6D2 /* DHClickWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */; };
 		5BC33F2720075DF700356B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2620075DF700356B4D /* AppDelegate.m */; };
 		5BC33F2A20075DF700356B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2920075DF700356B4D /* ViewController.m */; };
 		5BC33F2D20075DF700356B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33F2B20075DF700356B4D /* Main.storyboard */; };
@@ -63,6 +65,9 @@
 		5B8F3EB62044064A004CD6D2 /* DXHObjectSingeton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXHObjectSingeton.h; sourceTree = "<group>"; };
 		5B8F3EB720440A13004CD6D2 /* DHAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAudioPlayer.h; sourceTree = "<group>"; };
 		5B8F3EB820440A13004CD6D2 /* DHAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAudioPlayer.m; sourceTree = "<group>"; };
+		5B8F3EC320468434004CD6D2 /* DHClickWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHClickWordViewController.h; sourceTree = "<group>"; };
+		5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHClickWordViewController.m; sourceTree = "<group>"; };
+		5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHClickWordViewController.xib; sourceTree = "<group>"; };
 		5BC33F2220075DF700356B4D /* DHControlKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHControlKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC33F2520075DF700356B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BC33F2620075DF700356B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -197,6 +202,9 @@
 		5B8F3EC120465B0C004CD6D2 /* ClickWord */ = {
 			isa = PBXGroup;
 			children = (
+				5B8F3EC320468434004CD6D2 /* DHClickWordViewController.h */,
+				5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */,
+				5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */,
 			);
 			path = ClickWord;
 			sourceTree = "<group>";
@@ -486,6 +494,7 @@
 				5BC33F3220075DF700356B4D /* LaunchScreen.storyboard in Resources */,
 				5BC33F2F20075DF700356B4D /* Assets.xcassets in Resources */,
 				5BC33FA3200768BC00356B4D /* DHCardViewController.xib in Resources */,
+				5B8F3EC720468434004CD6D2 /* DHClickWordViewController.xib in Resources */,
 				5BC33FBC20076D5E00356B4D /* DHContentViewController.xib in Resources */,
 				5BC33FB320076AAB00356B4D /* DHSlideViewViewController.xib in Resources */,
 				5BC33FAE20076A8300356B4D /* DHSegmentHeaderViewController.xib in Resources */,
@@ -554,6 +563,7 @@
 				5BC33F602007610800356B4D /* DHCustomSlideView.m in Sources */,
 				5BC33F632007610800356B4D /* DHSwipeViewProtocol.m in Sources */,
 				5BC33F5D2007610800356B4D /* DHSlideView.m in Sources */,
+				5B8F3EC620468434004CD6D2 /* DHClickWordViewController.m in Sources */,
 				5BC33F9B200767D500356B4D /* NSNotificationCenter+Additions.m in Sources */,
 				5BC33F5F2007610800356B4D /* DHScrollTabbarView.m in Sources */,
 				5BC33F682007610800356B4D /* DHScrollViewController.m in Sources */,
