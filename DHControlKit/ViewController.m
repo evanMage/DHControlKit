@@ -76,6 +76,7 @@
             [self.navigationController pushViewController:cardViewController animated:YES];
 
         }
+            break;
         case 3:{
             DHClickWordViewController *clickWordViewController = [[DHClickWordViewController alloc] init];
             [self.navigationController pushViewController:clickWordViewController animated:YES];
