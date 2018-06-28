@@ -7,7 +7,29 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 
-@interface DHAttributedLabel : UILabel
+typedef NS_ENUM(NSInteger, DHAttributedLabelVerticalAlignment) {
+    DHAttributedLabelVerticalAlignmentCenter    = 0,
+    DHAttributedLabelVerticalAlignmentTop       = 1,
+    DHAttributedLabelVerticalAlignmentBottom    = 2,
+};
+
+@protocol DHAttributedLable <NSObject>
+
+@property (nonatomic, copy) id text;
 
 @end
+
+//NS_ASSUME_NONNULL_BEGIN
+
+@interface DHAttributedLabel : UILabel<DHAttributedLable>
+
+@property (nonatomic, copy) NSAttributedString *attributedText;
+
+@property (nonatomic, strong) NSDictionary *link;
+
+
+@end
+
+//NS_ASSUME_NONNULL_END

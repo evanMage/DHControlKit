@@ -10,6 +10,7 @@
 		5B8F3EC620468434004CD6D2 /* DHClickWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */; };
 		5B8F3EC720468434004CD6D2 /* DHClickWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */; };
 		5BA3537720902A46004E1FAB /* DHAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3537620902A46004E1FAB /* DHAttributedLabel.m */; };
+		5BA3539C20999979004E1FAB /* DHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3539B20999979004E1FAB /* DHLabel.m */; };
 		5BC33F2720075DF700356B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2620075DF700356B4D /* AppDelegate.m */; };
 		5BC33F2A20075DF700356B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC33F2920075DF700356B4D /* ViewController.m */; };
 		5BC33F2D20075DF700356B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC33F2B20075DF700356B4D /* Main.storyboard */; };
@@ -65,6 +66,8 @@
 		5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHClickWordViewController.xib; sourceTree = "<group>"; };
 		5BA3537520902A46004E1FAB /* DHAttributedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAttributedLabel.h; sourceTree = "<group>"; };
 		5BA3537620902A46004E1FAB /* DHAttributedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAttributedLabel.m; sourceTree = "<group>"; };
+		5BA3539A20999979004E1FAB /* DHLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHLabel.h; sourceTree = "<group>"; };
+		5BA3539B20999979004E1FAB /* DHLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHLabel.m; sourceTree = "<group>"; };
 		5BC33F2220075DF700356B4D /* DHControlKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHControlKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC33F2520075DF700356B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BC33F2620075DF700356B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 		5B8F3EC220465B31004CD6D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3539A20999979004E1FAB /* DHLabel.h */,
+				5BA3539B20999979004E1FAB /* DHLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -539,6 +544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA3539C20999979004E1FAB /* DHLabel.m in Sources */,
 				5BC33F602007610800356B4D /* DHCustomSlideView.m in Sources */,
 				5BC33F632007610800356B4D /* DHSwipeViewProtocol.m in Sources */,
 				5BC33F5D2007610800356B4D /* DHSlideView.m in Sources */,

@@ -26,12 +26,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self addCustomSlideView];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self addCustomSlideView];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
