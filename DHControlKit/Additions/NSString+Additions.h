@@ -263,7 +263,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * Return Yes if the target string is contained within the receiver.
- * @param string A string to text the receiver.
+ * @param str A string to text the receiver.
  * @discussion Apple has implemented this method in iOS8.
  * ios8以后实现了此方法
  */

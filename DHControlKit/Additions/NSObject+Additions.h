@@ -189,6 +189,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (BOOL)swizzleClassMethod:(SEL)originalSel with:(SEL)newSel;
 
++ (BOOL)addMethod:(SEL)methodSel methodImp:(SEL)methodImp;
+
 
 #pragma mark - Associate value
 ///=============================================================================

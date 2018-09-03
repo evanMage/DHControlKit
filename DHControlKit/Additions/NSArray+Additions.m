@@ -10,6 +10,56 @@
 #import "NSData+Additions.h"
 
 @implementation NSArray (Additions)
+//******************************* safe *****************************************
+
++ (void)load
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [NSClassFromString(@"__NSPlaceholderArray") swizzleInstanceMethod:@selector(initWithObjects:count:) with:@selector(safeInitWithObjects:count:)];
+        [NSClassFromString(@"__NSArrayI") swizzleInstanceMethod:@selector(objectAtIndex:) with:@selector(safeObjectAtIndex:)];
+        [NSClassFromString(@"__NSArray0") swizzleInstanceMethod:@selector(objectAtIndex:) with:@selector(safeZeroObjectAtIndex:)];
+        [NSClassFromString(@"__NSSingleObjectArrayI") swizzleInstanceMethod:@selector(objectAtIndex:) with:@selector(safeSingleObjectAtIndex:)];
+    });
+}
+
+- (instancetype)safeInitWithObjects:(id *)objects count:(NSUInteger)count
+{
+    NSUInteger newCnt = 0;
+    for (NSUInteger i = 0; i < count; i++) {
+        if (!objects[i]) {
+            break;
+        }
+        newCnt++;
+    }
+    return [self safeInitWithObjects:objects count:newCnt];
+}
+
+- (id)safeZeroObjectAtIndex:(NSInteger)index
+{
+    if (index >= self.count) {
+        return nil;
+    }
+    return [self safeZeroObjectAtIndex:index];
+}
+
+- (id)safeObjectAtIndex:(NSInteger)index
+{
+    if (index >= self.count) {
+        return nil;
+    }
+    return [self safeObjectAtIndex:index];
+}
+
+- (id)safeSingleObjectAtIndex:(NSInteger)index
+{
+    if (self.count <= index) {
+        return nil;
+    }
+    return [self safeSingleObjectAtIndex:index];
+}
+
+//******************************* safe *****************************************
 
 + (NSArray *)arrayWithPlistData:(NSData *)plist
 {
@@ -90,6 +140,77 @@
 
 
 @implementation NSMutableArray (Additions)
+
+//******************************* safe *****************************************
+
++ (void)load
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [NSClassFromString(@"__NSArrayM") swizzleInstanceMethod:@selector(objectAtIndex:) with:@selector(safeObjectAtIndex:)];
+        
+        [NSClassFromString(@"__NSArrayM") swizzleInstanceMethod:@selector(addObject:) with:@selector(safeAddObject:)];
+        
+        [NSClassFromString(@"__NSArrayM") swizzleInstanceMethod:@selector(removeObjectAtIndex:) with:@selector(safeRemoveObjectAtIndex:)];
+        
+        [NSClassFromString(@"__NSArrayM") swizzleInstanceMethod:@selector(replaceObjectAtIndex:withObject:)  with:@selector(safeReplaceObjectAtIndex:withObject:)];
+        
+        [NSClassFromString(@"__NSArrayM") swizzleInstanceMethod:@selector(removeObjectsInRange:) with:@selector(safeRemoveObjectsInRange:)];
+        
+        [NSClassFromString(@"__NSArrayM") swizzleInstanceMethod:@selector(insertObject:atIndex:) with:@selector(safeInsertObject:atIndex:)];
+    });
+}
+
+- (id)safeObjectAtIndex:(NSInteger)index
+{
+    if (index >= self.count) {
+        return nil;
+    }
+    return [self safeObjectAtIndex:index];
+}
+
+- (void)safeAddObject:(id)anObject
+{
+    if (!anObject) {
+        return;
+    }
+    [self safeAddObject:anObject];
+}
+
+- (void)safeRemoveObjectAtIndex:(NSUInteger)index
+{
+    if (index >= self.count) {
+        return;
+    }
+    [self safeRemoveObjectAtIndex:index];
+}
+
+- (void)safeReplaceObjectAtIndex:(NSUInteger)index withObject:(id)anObject
+{
+    if (index >= self.count || !anObject) {
+        return;
+    }
+    [self safeReplaceObjectAtIndex:index withObject:anObject];
+}
+
+- (void)safeRemoveObjectsInRange:(NSRange)range
+{
+    if (range.length > self.count || range.location > self.count || (range.location + range.length) > self.count) {
+        return;
+    }
+    [self safeRemoveObjectsInRange:range];
+}
+
+- (void)safeInsertObject:(id)anObject atIndex:(NSUInteger)index
+{
+    if (!anObject || index >= self.count) {
+        return;
+    }
+    [self safeInsertObject:anObject atIndex:index];
+}
+
+//******************************* safe *****************************************
+
 
 + (NSMutableArray *)arrayWithPlistData:(NSData *)plist
 {

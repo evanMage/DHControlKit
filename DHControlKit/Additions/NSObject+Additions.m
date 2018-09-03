@@ -340,6 +340,18 @@ struct dummy arg = va_arg(args, struct dummy); \
     return YES;
 }
 
++ (BOOL)addMethod:(SEL)methodSel methodImp:(SEL)methodImp
+{
+    Method method = class_getInstanceMethod(self, methodImp);
+    if (!method) {
+        return NO;
+    }
+    IMP methodIMP = method_getImplementation(method);
+    const char *types = method_getTypeEncoding(method);
+    class_addMethod(self, methodSel, methodIMP, types);
+    return YES;
+}
+
 - (void)setAssociateValue:(id)value withKey:(void *)key {
     objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
