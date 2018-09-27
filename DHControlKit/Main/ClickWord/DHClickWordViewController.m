@@ -36,6 +36,8 @@
         make.top.left.right.bottom.mas_equalTo(self.dhView);
     }];
     label.text = string;
+    NSArray *array = @[@"1",@"2",@"3",@"4"];
+    DXHDINFO(@"-------- %@ ------- %@",[array objectAtIndex:3] , [array objectAtIndex:4]);
 }
 
 - (void)didReceiveMemoryWarning {

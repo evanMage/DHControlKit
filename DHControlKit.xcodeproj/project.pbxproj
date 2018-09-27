@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B09158620E4C94B0047653E /* DHDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B09158520E4C94B0047653E /* DHDownloadManager.m */; };
+		5B09158920E4CF890047653E /* DHDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B09158820E4CF890047653E /* DHDownloader.m */; };
 		5B8F3EC620468434004CD6D2 /* DHClickWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */; };
 		5B8F3EC720468434004CD6D2 /* DHClickWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */; };
 		5BA3537720902A46004E1FAB /* DHAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3537620902A46004E1FAB /* DHAttributedLabel.m */; };
@@ -60,6 +62,10 @@
 
 /* Begin PBXFileReference section */
 		154B02DDFB43457F32ED9BF8 /* Pods-DHControlKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHControlKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHControlKit/Pods-DHControlKit.debug.xcconfig"; sourceTree = "<group>"; };
+		5B09158420E4C94B0047653E /* DHDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDownloadManager.h; sourceTree = "<group>"; };
+		5B09158520E4C94B0047653E /* DHDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDownloadManager.m; sourceTree = "<group>"; };
+		5B09158720E4CF890047653E /* DHDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDownloader.h; sourceTree = "<group>"; };
+		5B09158820E4CF890047653E /* DHDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDownloader.m; sourceTree = "<group>"; };
 		5B8F3EB62044064A004CD6D2 /* DXHObjectSingeton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXHObjectSingeton.h; sourceTree = "<group>"; };
 		5B8F3EC320468434004CD6D2 /* DHClickWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHClickWordViewController.h; sourceTree = "<group>"; };
 		5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHClickWordViewController.m; sourceTree = "<group>"; };
@@ -172,6 +178,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B09158320E4C8190047653E /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				5B09158420E4C94B0047653E /* DHDownloadManager.h */,
+				5B09158520E4C94B0047653E /* DHDownloadManager.m */,
+				5B09158720E4CF890047653E /* DHDownloader.h */,
+				5B09158820E4CF890047653E /* DHDownloader.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
 		5B8F3EC120465B0C004CD6D2 /* ClickWord */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +259,7 @@
 		5BC33F3C2007610800356B4D /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5B09158320E4C8190047653E /* Download */,
 				5BA3537420902970004E1FAB /* DHAttributedLabel */,
 				5BC33F3D2007610800356B4D /* SlideView */,
 				5BC33F4A2007610800356B4D /* DHSwipeView */,
@@ -552,6 +570,7 @@
 				5BC33F9B200767D500356B4D /* NSNotificationCenter+Additions.m in Sources */,
 				5BC33F5F2007610800356B4D /* DHScrollTabbarView.m in Sources */,
 				5BC33F682007610800356B4D /* DHScrollViewController.m in Sources */,
+				5B09158620E4C94B0047653E /* DHDownloadManager.m in Sources */,
 				5BC33F2A20075DF700356B4D /* ViewController.m in Sources */,
 				5BC33F8D200767D500356B4D /* NSRegularExpression+Additions.m in Sources */,
 				5BC33FA920076A4900356B4D /* DHSegmentationViewController.m in Sources */,
@@ -579,6 +598,7 @@
 				5BC33FAD20076A8300356B4D /* DHSegmentHeaderViewController.m in Sources */,
 				5BC33F91200767D500356B4D /* NSNumber+Additions.m in Sources */,
 				5BC33F642007610800356B4D /* DHSwipeView.m in Sources */,
+				5B09158920E4CF890047653E /* DHDownloader.m in Sources */,
 				5BC33FBB20076D5E00356B4D /* DHContentViewController.m in Sources */,
 				5BC33F662007610800356B4D /* DHViewManager.m in Sources */,
 				5BC33F692007610800356B4D /* DHScrollView.m in Sources */,
