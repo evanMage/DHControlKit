@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B09158620E4C94B0047653E /* DHDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B09158520E4C94B0047653E /* DHDownloadManager.m */; };
 		5B09158920E4CF890047653E /* DHDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B09158820E4CF890047653E /* DHDownloader.m */; };
+		5B41E4E421ABD3180070F1FC /* DHSystemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B41E4E321ABD3180070F1FC /* DHSystemManager.m */; };
 		5B8F3EC620468434004CD6D2 /* DHClickWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */; };
 		5B8F3EC720468434004CD6D2 /* DHClickWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F3EC520468434004CD6D2 /* DHClickWordViewController.xib */; };
 		5BA3537720902A46004E1FAB /* DHAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3537620902A46004E1FAB /* DHAttributedLabel.m */; };
@@ -66,6 +67,8 @@
 		5B09158520E4C94B0047653E /* DHDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDownloadManager.m; sourceTree = "<group>"; };
 		5B09158720E4CF890047653E /* DHDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDownloader.h; sourceTree = "<group>"; };
 		5B09158820E4CF890047653E /* DHDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDownloader.m; sourceTree = "<group>"; };
+		5B41E4E221ABD3180070F1FC /* DHSystemManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHSystemManager.h; sourceTree = "<group>"; };
+		5B41E4E321ABD3180070F1FC /* DHSystemManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSystemManager.m; sourceTree = "<group>"; };
 		5B8F3EB62044064A004CD6D2 /* DXHObjectSingeton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXHObjectSingeton.h; sourceTree = "<group>"; };
 		5B8F3EC320468434004CD6D2 /* DHClickWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHClickWordViewController.h; sourceTree = "<group>"; };
 		5B8F3EC420468434004CD6D2 /* DHClickWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHClickWordViewController.m; sourceTree = "<group>"; };
@@ -324,6 +327,8 @@
 				5BC33F6C2007673200356B4D /* DXHDebug.h */,
 				5BC33FB720076C1100356B4D /* DHConfig.h */,
 				5B8F3EB62044064A004CD6D2 /* DXHObjectSingeton.h */,
+				5B41E4E221ABD3180070F1FC /* DHSystemManager.h */,
+				5B41E4E321ABD3180070F1FC /* DHSystemManager.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -600,6 +605,7 @@
 				5BC33F642007610800356B4D /* DHSwipeView.m in Sources */,
 				5B09158920E4CF890047653E /* DHDownloader.m in Sources */,
 				5BC33FBB20076D5E00356B4D /* DHContentViewController.m in Sources */,
+				5B41E4E421ABD3180070F1FC /* DHSystemManager.m in Sources */,
 				5BC33F662007610800356B4D /* DHViewManager.m in Sources */,
 				5BC33F692007610800356B4D /* DHScrollView.m in Sources */,
 				5BC33F96200767D500356B4D /* NSDate+Additions.m in Sources */,

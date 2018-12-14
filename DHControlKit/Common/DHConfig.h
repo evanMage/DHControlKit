@@ -6,13 +6,10 @@
 //  Copyright © 2018年 代新辉. All rights reserved.
 //
 
+#import <sys/utsname.h>
+
 #ifndef DHConfig_h
 #define DHConfig_h
-//判断设备
-#define IS_IPHONE_5     (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )568) < DBL_EPSILON )
-#define IS_IPHONE_6     (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )667) < DBL_EPSILON )
-#define IS_IPHONE_PLUS  (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )736) < DBL_EPSILON )
-#define IS_IPHONE_X     (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )812) < DBL_EPSILON )
 //物理尺寸
 #define KEY_WINDOW_HEIGHT    [[UIScreen mainScreen] bounds].size.height
 #define KEY_WINDOW_WIDTH     [[UIScreen mainScreen] bounds].size.width
@@ -36,10 +33,6 @@
 // 弱引用/强引用
 #define KWeakSelf(type)     __weak typeof(type) weak##type = type;
 #define kStrongSelf(type)   __strong typeof(type) type = weak##type;
-
-//颜色
-#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
-#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
 //判断属性非空
 /** 判断array */
