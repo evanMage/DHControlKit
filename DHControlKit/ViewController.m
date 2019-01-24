@@ -11,6 +11,7 @@
 #import "DHSlideViewViewController.h"
 #import "DHSegmentationViewController.h"
 #import "DHClickWordViewController.h"
+#import "DHFlowViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -38,7 +39,7 @@
 {
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.dataArray = @[@"Slide tab",@"ScrollView Parallax Header",@"Card Swipe",@"click word"];
+    self.dataArray = @[@"Slide tab",@"ScrollView Parallax Header",@"Card Swipe",@"click word",@"flow"];
     [self.tableView reloadData];
 }
 
@@ -80,6 +81,13 @@
         case 3:{
             DHClickWordViewController *clickWordViewController = [[DHClickWordViewController alloc] init];
             [self.navigationController pushViewController:clickWordViewController animated:YES];
+            
+        }
+            break;
+            
+        case 4:{
+            DHFlowViewController *flowViewController = [[DHFlowViewController alloc] init];
+            [self.navigationController pushViewController:flowViewController animated:YES];
             
         }
             break;

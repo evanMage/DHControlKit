@@ -49,7 +49,7 @@ static inline BOOL IS_DEVICE(UserDeviceResolution resolution) {
  @return BOOL
  */
 static inline BOOL greaterThanOrEqualTo(UserDeviceResolution resolution) {
-    return ([STSYSTEM_MANAGER_SHARED getUserDeviceResolution] >= resolution);
+    return ([DHSYSTEM_MANAGER_SHARED getUserDeviceResolution] >= resolution);
 }
 
 /**
@@ -59,7 +59,7 @@ static inline BOOL greaterThanOrEqualTo(UserDeviceResolution resolution) {
  @return BOOL
  */
 static inline BOOL lessThanOrEqualTo(UserDeviceResolution resolution) {
-    return ([STSYSTEM_MANAGER_SHARED getUserDeviceResolution] <= resolution);
+    return ([DHSYSTEM_MANAGER_SHARED getUserDeviceResolution] <= resolution);
 }
 
 

@@ -11,12 +11,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol DHFlowViewDelegate, DHFlowViewDataSource;
+
 @interface DHFlowView : UIView
 
 @property (nonatomic, strong) DHFlowUtils *flowUtils;
 
-/** 数据、flowUtils更改调用此方法 */
+@property (nonatomic, weak) id<DHFlowViewDelegate>delegate;
+@property (nonatomic, weak) id<DHFlowViewDataSource>dataSource;
+
+/** 加载UI （flowUtils更改调用此方法） */
+- (void)setupUI;
+
+/** 刷新数据 */
 - (void)reloadData;
+
+- (void)registerClass:(nullable Class)cellClass forCellWithReuseIdentifier:(NSString *)identifier;
+- (void)registerNib:(nullable NSString *)nibName forCellWithReuseIdentifier:(NSString *)identifier;
 
 @end
 
@@ -26,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSArray *)itemsInFlowView:(DHFlowView *)flowView;
 
-- (UICollectionViewCell *)flowView:(DHFlowView *)flowView viewForRowAtIndex:(NSInteger)index;
+- (UICollectionViewCell *)flowView:(DHFlowView *)flowView collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath;
 
 
 @end

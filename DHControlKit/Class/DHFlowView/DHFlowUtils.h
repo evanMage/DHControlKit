@@ -28,12 +28,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DHFlowUtils : NSObject
 
-@property (nonatomic) CGFloat minimumSpacing;//Default 10.0f
-@property (nonatomic) CGSize itemSize;
-@property (nonatomic) DHFlowScrollDirection scrollDirection;//Default DHFlowScrollDirectionHorizontal
-@property (nonatomic) DHFlowScrollingEffect scrollingEffect;//Default DHFlowScrollingEffectTransform
-@property (nonatomic) DHFlowScrollWay scrollWay;//Default DHFlowScrollWayNormal
-@property (nonatomic) NSTimeInterval timeInterval;//Default 3.0s
+@property (nonatomic) CGFloat               minimumSpacing;// default 0.0f
+@property (nonatomic) CGSize                itemSize;
+@property (nonatomic) CGFloat               scaleFactor;// default 0.9 (0 ~ 1)
+@property(nonatomic)  UIEdgeInsets          contentInset;// default UIEdgeInsetsZero
+@property (nonatomic) DHFlowScrollDirection scrollDirection;// default DHFlowScrollDirectionHorizontal
+@property (nonatomic) DHFlowScrollingEffect scrollingEffect;// default DHFlowScrollingEffectTransform
+@property (nonatomic) DHFlowScrollWay       scrollWay;// default DHFlowScrollWayNormal
+@property (nonatomic) NSTimeInterval        timeInterval;// default 3.0s
 
 @end
 

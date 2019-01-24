@@ -1,8 +1,8 @@
 //
-//  DHFlowCollectionViewCell.h
+//  DHFlowViewController.h
 //  DHControlKit
 //
-//  Created by daixinhui on 2018/12/14.
+//  Created by daixinhui on 2018/12/17.
 //  Copyright © 2018 代新辉. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DHFlowCollectionViewCell : UICollectionViewCell
+@interface DHFlowViewController : UIViewController
 
 @end
 

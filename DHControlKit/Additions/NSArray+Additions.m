@@ -203,7 +203,7 @@
 
 - (void)safeInsertObject:(id)anObject atIndex:(NSUInteger)index
 {
-    if (!anObject || index >= self.count) {
+    if (!anObject) {
         return;
     }
     [self safeInsertObject:anObject atIndex:index];

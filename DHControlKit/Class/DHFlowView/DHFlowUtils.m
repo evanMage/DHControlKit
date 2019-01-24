@@ -21,7 +21,7 @@
 
 - (void)defaultSets
 {
-    self.minimumSpacing = 10.0f;
+    self.scaleFactor = 0.9;
     self.scrollDirection = DHFlowScrollDirectionHorizontal;
     self.scrollingEffect = DHFlowScrollingEffectTransform;
     self.scrollWay = DHFlowScrollWayNormal;
