@@ -24,5 +24,7 @@
 #import "NSNotificationCenter+Additions.h"
 #import "UIColor+Additions.h"
 #import "NSRegularExpression+Additions.h"
+#import "UIAlertController+Additions.h"
+#import "UIViewController+Additions.h"
 
 #endif /* DHAdditions_h */

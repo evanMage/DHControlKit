@@ -14,6 +14,8 @@
 		5B38DBA721C39C8B00D63E8C /* DHFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38DBA621C39C8B00D63E8C /* DHFlowView.m */; };
 		5B38DBAD21C3A9C100D63E8C /* DHFlowUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38DBAC21C3A9C100D63E8C /* DHFlowUtils.m */; };
 		5B41E4E421ABD3180070F1FC /* DHSystemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B41E4E321ABD3180070F1FC /* DHSystemManager.m */; };
+		5B7F513421F9A90700D41456 /* UIAlertController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F513121F9A90600D41456 /* UIAlertController+Additions.m */; };
+		5B7F513521F9A90700D41456 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F513221F9A90700D41456 /* UIViewController+Additions.m */; };
 		5B85818921C3AAA800207A27 /* DHFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B85818821C3AAA800207A27 /* DHFlowLayout.m */; };
 		5B85818E21C74E3000207A27 /* DHFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B85818C21C74E3000207A27 /* DHFlowViewController.m */; };
 		5B85818F21C74E3000207A27 /* DHFlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B85818D21C74E3000207A27 /* DHFlowViewController.xib */; };
@@ -86,6 +88,10 @@
 		5B38DBAC21C3A9C100D63E8C /* DHFlowUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHFlowUtils.m; sourceTree = "<group>"; };
 		5B41E4E221ABD3180070F1FC /* DHSystemManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHSystemManager.h; sourceTree = "<group>"; };
 		5B41E4E321ABD3180070F1FC /* DHSystemManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSystemManager.m; sourceTree = "<group>"; };
+		5B7F513021F9A90600D41456 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
+		5B7F513121F9A90600D41456 /* UIAlertController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Additions.m"; sourceTree = "<group>"; };
+		5B7F513221F9A90700D41456 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
+		5B7F513321F9A90700D41456 /* UIAlertController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Additions.h"; sourceTree = "<group>"; };
 		5B85818721C3AAA800207A27 /* DHFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHFlowLayout.h; sourceTree = "<group>"; };
 		5B85818821C3AAA800207A27 /* DHFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHFlowLayout.m; sourceTree = "<group>"; };
 		5B85818B21C74E3000207A27 /* DHFlowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHFlowViewController.h; sourceTree = "<group>"; };
@@ -443,6 +449,10 @@
 				5BC33F76200767D400356B4D /* UITextField+Additons.m */,
 				5BC33F8A200767D500356B4D /* UIView+Additions.h */,
 				5BC33F75200767D400356B4D /* UIView+Additions.m */,
+				5B7F513321F9A90700D41456 /* UIAlertController+Additions.h */,
+				5B7F513121F9A90600D41456 /* UIAlertController+Additions.m */,
+				5B7F513021F9A90600D41456 /* UIViewController+Additions.h */,
+				5B7F513221F9A90700D41456 /* UIViewController+Additions.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -612,6 +622,7 @@
 				5BC33F5F2007610800356B4D /* DHScrollTabbarView.m in Sources */,
 				5BC33F682007610800356B4D /* DHScrollViewController.m in Sources */,
 				5B09158620E4C94B0047653E /* DHDownloadManager.m in Sources */,
+				5B7F513521F9A90700D41456 /* UIViewController+Additions.m in Sources */,
 				5BC33F2A20075DF700356B4D /* ViewController.m in Sources */,
 				5B38DBA721C39C8B00D63E8C /* DHFlowView.m in Sources */,
 				5BC33F8D200767D500356B4D /* NSRegularExpression+Additions.m in Sources */,
@@ -630,6 +641,7 @@
 				5BC33F652007610800356B4D /* DHSwipeUtils.m in Sources */,
 				5BC33F3520075DF700356B4D /* main.m in Sources */,
 				5BC33F5E2007610800356B4D /* DHColorChangeUtils.m in Sources */,
+				5B7F513421F9A90700D41456 /* UIAlertController+Additions.m in Sources */,
 				5BA3537720902A46004E1FAB /* DHAttributedLabel.m in Sources */,
 				5BC33F9A200767D500356B4D /* NSDictionary+Additions.m in Sources */,
 				5BC33F8E200767D500356B4D /* UIColor+Additions.m in Sources */,
