@@ -1479,8 +1479,6 @@ afterInheritingLabelAttributesAndConfiguringWithBlock:(NSMutableAttributedString
     CTFrameGetLineOrigins(frame, CFRangeMake(0, 0), lineOrigins);
     //    NSInteger numberOfLines = [self numberOfDisplayedLines];
     
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    
     for (CFIndex i = 0; i < numberOfLines; i++) {
         CTLineRef line = CFArrayGetValueAtIndex(lines, i);
         
@@ -1496,6 +1494,8 @@ afterInheritingLabelAttributesAndConfiguringWithBlock:(NSMutableAttributedString
         CGAffineTransform transform =  CGAffineTransformScale(CGAffineTransformMakeTranslation(0, self.bounds.size.height), 1.f, -1.f);
         self.highlighedLinkRect = CGRectApplyAffineTransform(highlightRect, transform);
     }
+    CFRelease(frame);
+    CFRelease(path);
 }
 
 - (CGRect)_rectForRange:(NSRange)range inLine:(CTLineRef)line lineOrigin:(CGPoint)lineOrigin {
